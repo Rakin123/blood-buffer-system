@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="matter.js"></script>
+    <meta charset="UTF-8">
+    <title>Blood Buffer System</title>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quizstyle.css">
+</head>
+<header id="top">
+  <h1 id="logoTop">Blood Buffer System</h1>
+  <h1 id="logoTop" style="margin-left: 900px;">By: Rakin, Faijul, Nashwan, Aayan</h1>
+</header>
+
+<body>
+
+  <br>
+  
+  <div id="tabs">
+    <nav>
+      <ul>
+        <li><a href="index.html">Information</a> </li>
+        <li><a href="simulation.html">Simulation</a> </li>
+        <li><a href="quiz.html">Quiz</a> </li>
+        <li><a href="keyTerm.html">Key Terms</a> </li>
+        <li><a href="application.html">Application</a> </li>
+        <li><a href="conclusion.html">Conclusion</a> </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="rect">
+    <h3 id="progress" style="display: none;">Question 1 of 10</h3>
+    <h1 style="text-align: center; margin-bottom: 50px;" id="question"> Quiz of 10 Questions</h1>
+    <button class="buttonStyle" id="begin" style=" padding: 15px 150px;" onclick="hideButton('begin')"> Begin!</button>
+
+    <button class="buttonStyle" id="optiona" style="display: none; margin-left: 0;" onclick="displayQuestion();">hi</button>
+    <button class="buttonStyle" id="optionb" style="display: none;margin-left: 0;" onclick="displayQuestion();">bye</button>
+    <button class="buttonStyle" id="optionc" style="display: none;margin-left: 0;" onclick="displayQuestion();">good</button>
+    <button class="buttonStyle" id="optiond" style="display: none;margin-left: 0;" onclick="displayQuestion();">right</button>
+
+
+    <button class="buttonStyle" id="nextq" style="display: none; margin-left: 350px;">next</button>
+    <button class="buttonStyle" id="next" style="display: none; margin-left: 700px;"></button>
+
+
+    <script src="quiz.js"></script>
+
+  </div>
+
+  <!-- <div id="background">
+    <p></p>
+  </div> -->
+
+
+    
+</body>
+</html>

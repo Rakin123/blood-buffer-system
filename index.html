@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="matter.js"></script>
+    <meta charset="UTF-8">
+    <title>Blood Buffer System</title>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="info.css">
+</head>
+<header id="top">
+  <h1 id="logoTop">Blood Buffer System</h1>
+  <h1 id="logoTop" style="margin-left: 900px;">By: Rakin, Faijul, Nashwan, Aayan</h1>
+</header>
+
+<body>
+
+  <br>
+  
+  <div id="tabs">
+    <nav>
+      <ul>
+        <li><a href="index.html">Information</a> </li>
+        <li><a href="simulation.html">Simulation</a> </li>
+        <li><a href="quiz.html">Quiz</a> </li>
+        <li><a href="keyTerm.html">Key Terms</a> </li>
+        <li><a href="application.html">Application</a> </li>
+        <li><a href="conclusion.html">Conclusion</a> </li>
+      </ul>
+    </nav>
+  </div>
+
+
+  <div class="rect">
+    <h2>What is a Blood Buffer System?</h2>
+    <p>Chemical equilibriums are important in regulating the conditions required to maintain regular bodily and physiological function. The pH buffer of blood is a prime example of such an important process. This buffer ensures a balance between acidity and alkalinity in the bloodstream referred to as acid-base balance. The pH of blood is the hydrogen ion concentration of blood between a pH of 0 and 14. A buffer is an aqueous solution that can resist changes in pH after the addition of an acid or base. Regulating the pH of blood is vital as slight variations can jeopardize important biochemical mechanisms and the stability of proteins. Essentially a blood buffer maintains a pH within a healthy range (between pH of  7.35 and 7.45) by shifting hydrogen ion concentrations. A blood pH< 7.35 is called Acidosis (associated with increased acidity) while a blood pH > 7.45 is called Alkalosis (associated with increased alkalinity)- both extremes that can be potentially deadly. In this project, the emphasis will be on examining the bicarbonate ion buffer within the blood, and how it plays a crucial role in the body’s overall well-being.</p>
+    <img style="width: 100%;" src="img/diagram.png" alt="">
+  </div>
+
+  <div class="rect"> 
+    <h2>How does it Work?</h2>
+    <p>Carbonic acid (H2CO3) is a weak acid , meaning it does not ionize completely in water. This allows it to be in equilibrium with bicarbonate (HCO3-) and hydronium (H3O+) ions. Similarly, Carbonic acid (H2CO3) disassociates to form another equilibrium with Carbon dioxide (CO2) and water (H2O) because of its instability. When there is a decrease in pH, the equilibrium moves backward to a lower concentration of H3O+. Vice versa, the reaction moves forward when the pH is too high to lower the concentration of H3O+.</p>
+    
+  </div>
+
+  <div class="rect">
+    <h2>Where does the Equilibrium Exist?</h2>
+    <ol>
+      <li style="font-weight: bold;font-size: 18px;">Lungs:</li>
+      <img style="width: 100%;" src="img/lungs.png" alt="">
+      <p>The lungs utilize a process known as pulmonary regulation to regulate the pH of blood by controlling the amount of CO2 gas that exits the lungs. </p>
+      <br>
+      <p>	The lungs utilize a process known as pulmonary regulation to compensate for increased acidity of the blood, known as acidosis. A decrease in pH is sensed by arterial and central chemoreceptors, which in turn leads to deeper faster breathing. According to Le Chatelier's principle, when there is an increase in [H3O+], and a subsequent decrease in pH, the reaction moves backward to consume extra product and simultaneously increase the pH. As the reaction moves backward more carbon dioxide is formed which exits through the lungs through exhalation. This change causes less H3O+ to be formed, leveling out the pH to within a healthy range. This process is commonly known as panting. During alkalosis, the rate of breathing is decreased to accumulate carbon dioxide (CO2) in the blood, favoring the forward reaction and thus decreasing the pH of blood to a normal level.</p>
+      <img style="width: 100%;" src="img/lung2.png" alt="">
+      <br>
+      <br>
+      <li style="font-weight: bold;font-size: 18px;padding-top: 20px;">Kidneys:</li>
+      <img style="width: 100%;"src="img/kidney.png" alt="">
+      <p>The kidneys use a process known as renal regulation to adjust the amount of bicarbonate that is reabsorbed from urine and the amount of hydronium ions secreted into blood to regulate pH.</p>
+      <br>
+      <p>	The application of the following equilibrium is also found in the kidneys through the process of renal regulation, wherein the kidneys control the amount of excreted hydronium ions (H3O+) and reabsorbed bicarbonate (HCO3-). When the pH of the blood is too high (Alkinsosis), the kidneys reduce bicarbonate (HCO3-) absorption and hydronium ion (H3O+) secretion. By Le Chatlier’s principle, the reaction moves forward to replace the lost product, in which the pH decreases as hydronium ion concentration increases. When the pH of the blood is too low (Acidosis), the kidneys increase the reabsorption of bicarbonate (HCO3-) to favor a backward reaction, consuming the extra product, and increasing the pH of blood to a regular level.</p>
+      <br>
+      <br>
+      <li style="font-weight: bold;font-size: 18px;padding-top: 20px;">Red Blood Cells:</li>
+      <br>
+      <img style="width: 50%;"src="img/cell.png" alt="">
+      <br>
+      <p>The bicarbonate ions found in the red blood cells play a vital role in the transportation of carbon dioxide through the bloodstream. Carbon dioxide binds to the bicarbonate ion in the red blood cell, and is moved throughout the bloodstream, until it has reached its end destination- usually the lungs for exhalation. Hemoglobin also assists with the transportation of carbon dioxide. The reversible reaction of carbon dioxide and water into carbonic acid is regulated by the enzyme, carbonic anhydrase, which is found in red blood cells. 
+      </p>
+
+      <br>
+      <br>
+      <li style="font-weight: bold;font-size: 18px;padding-top: 20px;">Sea Water</li>
+      <br>
+      <p>The bicarbonate buffer also plays a vital role in the survival of marine creatures such as coral and mollusks which utilize bicarbonate to produce calcium carbonate as part of the backbone of their skeletons. Dissolved CO2 in the water forms an equilibrium with carbonic acid (H2CO3). The carbonic acid dissociates into bicarbonate (HCO3-) and hydronium (H3O+) ions, forming another equilibrium. The bicarbonate ions further dissociate into H3O+ and carbonate (CO32-) ions. The carbonate ions interact with abundant ions such as Ca2+, forming calcium carbonate (CaCO3) for marine creatures to utilize. 
+      </p>
+      <br>
+      <img style="width: 100%;" src="img/sea.png" alt="">
+
+    </ol>
+  </div>
+
+  <div class="rect">
+    <h2>Equilibrium Equation</h2>
+    <img style="width: 100%;" src="img/equation.png" alt="this is an equation">
+  </div>
+
+  <div class="rect">
+    <h2>Stresses</h2>
+    <ol>
+      <li style="font-weight: bold;font-size: 18px;padding-top: 20px;">Hypoventilation:</li>
+      <p>Hypoventilation happens when someone is breathing at a very slow rate. This leads to the accumulation of CO2 in the bloodstream. By Le Chatelier’s principle, the increase in concentration of CO2 favors the forward reaction to consume excess product. As a result, the concentration of H3O+ increases, decreasing the pH. This causes something known as respiratory acidosis which can lead to breathlessness, headaches, and in severe cases a coma.</p>
+      <p>In an effort to remove excess CO2, the central nervous system increases the rate of respiration and heart rate, which is known as panting</p>
+      <img style="width: 100%;" src="img/arrow1.png" alt="">
+      <br>
+      <li style="font-weight: bold;font-size: 18px;padding-top: 20px;">Hyperventilation:</li>
+      <p>Increased breathing leads to more exhalation of CO2, putting a stress on the equilibrium, and favoring the backward reaction to replace the lost reactant. This decreases the concentration of H3O+ by Le Chatelier’s principle, and therefore increases the pH. As a result, this can cause respiratory alkalosis, a condition in which the pH of blood is higher than the healthy range. Side effects include twitching, tremors, and in more severe cases seizures. 
+      </p>
+      <br>
+      <img style="width: 100%;" src="img/backarrow.png" alt="">
+
+      <br>
+      <li style="font-weight: bold;font-size: 18px;padding-top: 20px;">Decreased Concentration of Bicarbonate in Bloodstream:</li>
+      <p>Kidney dysfunction e.g. chronic kidney disease, diabetes, and severe diarrhea can result in a lower concentration of bicarbonate in the blood, so the reaction moves forward to replace lost product. Subsequently, the concentration of  H3O+ increases with the favorability of the forward reaction. This leads to a pH lower than the healthy range, causing metabolic acidosis, a condition associated with low pH of blood. Some side effects of this condition include demineralization of the bones, muscle weakness, and decreased immune function.
+      </p>
+      <br>
+      <li style="font-weight: bold;font-size: 18px;padding-top: 20px;">Decreased Concentration of Hydronium Ions:</li>
+      <p>When urine is lost or stomach acid is lost from vomiting, the concentration of hydronium Ions decreases, increasing the pH. To compensate for loss of product, the reaction moves forward to rebalance the pH. This loss of acid is called metabolic alkalosis, a condition associated with higher blood pH. Side effects include twitching, tremors, and in severe cases seizures.</p>
+      <br>
+      <img style="width: 100%;" src="img/arrow1.png" alt="">
+      
+      <br>
+      <li style="font-weight: bold;font-size: 18px;padding-top: 20px;">Shock or Trauma (Increased Concentration of Acid):</li>
+      <p>When severe levels of shock or trauma are inflicted on someone, there is a possibility that lactic acid and other acids can be released in the bloodstream. This can directly negatively affect the acid-base equilibrium in the blood. Hypovolemic shock or extensive tissue damage are examples of cases where shock and trauma is great enough that lactic acids and other acids will seep into the bloodstream, deeply affecting the blood’s pH and the buffer capacity. This would result in parts of the brain to be stimulated to produce faster and deeper breathing patterns. In more severe cases, a lower blood pH can result in extreme drowsiness, eventually leading to coma. A decrease in blood pH will force the body to start pulmonary regulation, which increases the rate of exhalation, getting rid of more carbon dioxide in order to get back to equilibrium. Therefore the reaction would move backwards to get back to equilibrium. 
+      </p>
+      <br>
+      <img style="width: 100%;" src="img/backarrow.png" alt="">
+
+      <!-- <br>
+      <li style="font-weight: bold;font-size: 18px;padding-top: 20px;">Dehydration or Fluid Imbalance (Increased Concentration of Bicarbonate): </li>
+      <p>Dehydration can cause an increase in the concentration of bicarbonate ions in the blood. This occurs because the water loss leads to a decrease in the volume of the extracellular fluid, causing an increase in the concentration of dissolved substances, including bicarbonate. Dehydration/Fluid imbalance can result in the kidneys trying to conserve more water by reabsorbing more bicarbonate, resulting in an increase of blood pH. This imbalance of blood pH results in the blood becoming more alkaline. Because volume is decreased, the reaction favors the products because it has less moles of gas. One may become sick, easily irritable, and uncomfortable. The alkalosis caused by this would also cause confusion, tremors in the body, and in severe cases a coma.</p>
+      <br>
+      <img src="img/arrow1.png" alt=""> -->
+
+
+    </ol>
+
+  </div>
+
+  
+  
+  <!-- <div id="background">
+    <p></p>
+  </div> -->
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rakin's Websites:Home page</title>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <header id="top">
+      <nav id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="apple.html">About</a></li>
+          <li><a href="#">Coding</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+  <body>
+    <div id="mainbackground">
+    <h1>My Favourite Things</h1>
+    <h2>Programing</h2>
+    <p>I like to program my very one website</p>
+    <h2>This is another h2 with font "Courier" </h2>
+    <h3><b>Underneath this H3 is Lorem Ipsum</b></h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur gravida arcu ac tortor dignissim convallis aenean et. Quis risus sed vulputate odio ut enim. Tempor nec feugiat nisl pretium fusce id velit. Pharetra magna ac placerat vestibulum lectus mauris ultrices. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Ac turpis egestas integer eget aliquet. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Sem viverra aliquet eget sit. Elit scelerisque mauris pellentesque pulvinar pellentesque.
+  Ipsum consequat nisl vel pretium lectus quam id. A pellentesque sit amet porttitor eget. Nascetur ridiculus mus mauris vitae ultricies leo. In cursus turpis massa tincidunt. Vel pretium lectus quam id leo in vitae. Enim praesent elementum facilisis leo vel fringilla. Vitae sapien pellentesque habitant morbi tristique. Blandit libero volutpat sed cras. Adipiscing elit ut aliquam purus sit. Neque gravida in fermentum et sollicitudin ac orci phasellus egestas. Pharetra magna ac placerat vestibulum lectus. Pellentesque habitant morbi tristique senectus. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Auctor augue mauris augue neque.</p>
+<div class="button">
+  <a href="https://loremipsum.io/"><b>Lorem Impsum generator</b></a>
+</div>
+<br>
+<br>
+    <img src="img/lighting sky.jpg" alt="sky that lights up(Northern lights)" width="25%">
+    <h3>My favourite stuff</h3>
+    <ol>
+      <li>Math</li>
+      <li>Sports</li>
+      <li>Video games</li>
+      <li>TV</li>
+      <li>Toys</li>
+    </ol>
+    <h3>My Favoutite Subjects</h3>
+    <ul>
+      <li>Math</li>
+      <li>Science</li>
+      <li>Gym</li>
+      <li>Art</li>
+      <li>Technology</li>
+    </ul>
+    <img src="img/mewtwo.jpg" alt="Mewtwo in a pokeball"width=20%">
+    <img src="img/charmander.jpg" alt="Cahrmander in pokeball"width=20%">
+    <img src="img/pokemon.jpg" alt=" Randon/unkown pokemon in a pokeball"width="20%">
+    <img src="img/evee.jpg" alt=" evee in pokeball"width="20%">
+    <br>
+    <img src="img/Forgot.jpg" alt="Forgot what pokemon it is" width="20%">
+    <img src="img/eveeevolution.jpg" alt=" evee evoloution" width="30%">
+    <br>
+    <br>
+    <a  class="buttonStyle"href="index.html#top">Back to top</a>
+    </div>
+    <div id="secondarybackground">
+      <h3>Games I've played before</h3>
+      <ul>
+        <li>Minecraft</li>
+        <li>Fortnite</li>
+        <li>Pokemon</li>
+        <li>Roblox</li>
+        <li>Friv</li>
+        <li>Coolmath games</li>
+        <li>Gun mayhem</li>
+        <li>Math playground(blue box)</li>
+        <li>Y8(slope)</li>
+        <li>NBA</li>
+        <li>Fifa</li>
+        <li>NHL</li>
+        <li>Overwatch</li>
+        <li>Prodigy</li>
+        <li>Rocket league</li>
+        <li>Agar.io</li>
+        <li>slither.io</li>
+        <li>shell shocker</li>
+        <li>Krunker</li>
+        <li>Kizi</li>
+        <li>Pokemon Y</li>
+      </ul>
+      <a  class="buttonStyle"href="index.html#top">Back to top</a>
+    </div>
+  </body>
+</html> -->

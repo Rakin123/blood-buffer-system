@@ -1,0 +1,176 @@
+body{
+    background-color:none;
+    color: black;
+    font-family:verdana;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/infoimg.jpg');
+    background-attachment: fixed; /* Keeps the background image stationary */
+    background-size: cover; /* Adjusts the background size */
+    /* background-position: 1540px; */
+}
+
+#header{
+    color: white;
+    font-size: 40px;
+    font-family:'Nunito Sans';
+    margin: 0px;
+    margin-top: 150px;
+    margin-left: 600px;
+   
+}
+
+#subheader{
+    color: white;
+    font-size: 20px;
+    font-family:'Nunito Sans';
+    margin-top: 0px;
+    margin-left: 600px;
+}
+
+
+.seperator{
+    margin-left: 490px;
+    margin-right: 380px;
+    margin-bottom: 100px;
+    
+    background-color: rgba(255, 255, 255, 0);
+}
+.options {
+    background-color: white;
+    color: rgba(255, 255, 255, 0);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    padding-top: 110px;
+    margin-top: 40px;
+    
+
+    margin-left: 20px;
+    /* margin-right: 800px; */
+    text-align: center;
+
+    display: inline-block;
+}
+
+.options h3{
+    color: #0e0e0e;
+}
+
+#bgImg1{
+    background-image: url('img/notebook.avif');
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+#bgImg2{
+    background-image: url('#');
+    background-attachment: fixed; 
+    /* background-size: cover; */
+}
+
+#bgImg3{
+    background-image: url('#');
+    background-attachment: fixed; 
+    /* background-size: cover; */
+}
+
+#bgImg4{
+    background-image: url('#');
+    background-attachment: fixed; 
+    /* background-size: cover; */
+}
+
+
+#logoTop{
+    position: fixed; 
+    width: 100%;
+    margin:0px;
+    background-color: rgb(162, 10, 10);
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+#logoTop a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#tabs{
+    background-color: rgba(255, 255, 255, 0.63);
+    margin-top: 40px;
+    padding:20px;
+    border-bottom: 2px rgba(0, 0, 0, 0) solid;
+    text-align:center;
+    
+}
+
+#tabs ul li{
+    
+    display: inline-block;
+    list-style-type: none;
+    margin-left:10px;
+    margin-right: 25px;
+}
+
+#tabs ul li a{
+
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size:24px;
+    color:#0e0e0e;
+    text-decoration: none;
+    font-family:'Berkshire Swash', cursive;
+        
+}
+
+#tabs ul li a:hover{
+    color:rgb(255, 0, 0);
+    font-size: 30px;
+    transition:0.3s;
+}
+
+#background{
+    position:fixed;
+    width:100%;
+    height: 100%;
+    margin-top: 0px;
+    padding-left: 0px;
+    background: url(img/background.jpg);
+    background-position: left; 
+
+}
+
+
+.rect{
+    background-color: #f5f5f5;
+    margin-top: 70px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 35px;
+    color: black;
+  
+    /* border: 5px rgb(131, 6, 6) solid; */
+    border-color:rgb(141, 3, 3);
+    border-width: 5px;
+    border-style: solid solid solid solid;
+    border-radius: 20px;
+
+}
+
+p{
+    line-height: 1.5;
+}
+
+
+
+

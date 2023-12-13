@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="matter.js"></script>
+    <meta charset="UTF-8">
+    <title>Blood Buffer System</title>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sim.css">
+</head>
+<header id="top"; style="z-index: 300;">
+  <h1 id="logoTop" style="z-index: 1;">Blood Buffer System</h1>
+  <h1 id="logoTop" style="margin-left: 900px; z-index: 1;">By: Rakin, Faijul, Nashwan, Aayan</h1>
+</header>
+
+<body>
+
+  <br>
+  
+  <div id="tabs">
+    <nav>
+      <ul>
+        <li><a href="index.html">Information</a> </li>
+        <li><a href="simulation.html">Simulation</a> </li>
+        <li><a href="quiz.html">Quiz</a> </li>
+        <li><a href="keyTerm.html">Key Terms</a> </li>
+        <li><a href="application.html">Application</a> </li>
+        <li><a href="conclusion.html">Conclusion</a> </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="simBg">
+
+    <!-- <canvas id="myCanvas"></canvas> -->
+    <h2 style="display:inline-block;" >Equilibrium Equation:</h2>
+    <div style="display: inline-block;width: 60%;">
+      <br>
+      <img style="position: relative; top: 20px; z-index: 0;" src="img/equation.png" alt="hi" width="100%">
+    </div>
+    
+    
+  </div>
+
+  <div id="simBgCont">
+
+
+    <h3>Change in Concentration: </h3>
+    
+
+    <select  id="myDropdown">
+      <option value="1">Select</option>
+      <option value="2">hydronium</option>
+      <option value="3">bicarbonate</option>
+      <option value="4">carbonic acid</option>
+      <option value="5">water</option>
+    </select>
+
+    <button class="buttonStyle" id="addC">Add</button>
+    <button class="buttonStyle" id="removeC">Remove</button>
+
+
+    <br>
+    <h3>Change in PH: </h3>
+    <button class="buttonStyle" id="addA">Add Acid</button>
+    <button class="buttonStyle" id="removeA">Add Base</button>
+
+    <br>
+
+    
+    <!-- <h3>Change in Volume:</h3>
+    <button class="buttonStyle" id="addV">Increase</button>
+    <button class="buttonStyle" id="removeV">Decrease</button> -->
+
+    <br>
+
+    <button class="buttonStyle" style = "margin-left: 350px;" id="resetB">Reset</button>
+
+
+
+    
+    <script style="width: 100%;" src="sketch.js"></script>
+
+
+    
+  </div>
+
+  
+
+  <!-- <div id="background">
+    <p></p>
+  </div> -->
+
+
+    
+</body>
+</html>

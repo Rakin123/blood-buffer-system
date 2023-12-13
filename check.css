@@ -1,0 +1,112 @@
+body{
+  background-color:#aaf0d1;
+  color: black;
+  font-family:verdana;
+  margin: 0;
+  padding: 0;
+}
+
+/* h1{
+  color:white;
+  font-family: cursive;
+  text-shadow: 5px 5px 8px grey;
+} */
+h2{
+  font-family:Courier;
+}
+p{
+font-family:'Quicksand', sans-serif;
+}
+#mainbackground{
+background-color: #170c00;
+margin: 40px;
+padding-left: 20px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 40px;
+
+border: 5px white solid;
+border-radius: 20px;
+
+background: url(img/leaves-pattern.PNG) repeat;
+}
+#secondarybackground{
+  background-color: #170c00;
+  margin: 40px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  color: black;
+
+  border: 5px white solid;
+  border-radius: 20px;
+
+  background: url(img/leaves-pattern.PNG) repeat;
+  }
+
+a{
+  color:black;
+  font-style:oblique;
+}
+.button {
+  background-color:#aaf0d1;
+  border:2px white solid;
+  color:black;
+  padding: 15px 32px;
+  text-align:left;
+  text-decoration:underline;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:30px;
+}
+#mainNav {
+background-color:white;
+padding:20px;
+border-bottom: 5px black solid;
+text-align:center;
+
+background: url(img/stripes-light.PNG)
+
+}
+#mainNav ul {
+
+}
+#mainNav ul li {
+display: inline-block;
+list-style-type: none;
+margin-left:10px;
+margin-right: 10px;
+}
+#mainNav ul li a {
+font-family: sans-serif;
+font-weight:bold;
+font-size:24px;
+color:#CFB997;
+text-decoration: none;
+font-family:'Berkshire Swash', cursive;
+}
+#mainNav ul li a:hover{
+color:black;
+font-size: 30px;
+transition:0.3s;
+}
+.buttonStyle {
+  color:black;
+  background-color:#aaf0d1;
+  text-decoration:none;
+  padding: 15px 32px;
+  border-radius: 30px;
+  border:2px white solid;
+  font-size: 16px;
+  margin-left:200px;
+  margin-right: 200px;
+  text-align:center;
+  font-family: sans-serif;
+  display: block;
+}
+.buttonStyle:hover{
+  background-color:black;
+  color:#aaf0d1;
+  transition: 0.7s;
+}
